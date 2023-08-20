@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plant Disease Recognition</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Plant Disease Recognition</h1>
+      <div class="video-container">
+        <video id="video" autoplay></video>
+      </div>
+      <div class="prediction">
+        <p id="prediction-text">Prediction:</p>
+        <p id="prediction-result">Waiting for prediction...</p>
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #333;
+}
+
+.video-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+video {
+  max-width: 100%;
+  border: 2px solid #333;
+}
+
+.prediction {
+  text-align: center;
+  color: #555;
+}
+
+#prediction-text {
+  font-size: 18px;
+  margin: 0;
+}
+
+#prediction-result {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5px 0;
+}
